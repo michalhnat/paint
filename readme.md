@@ -13,8 +13,8 @@ The project follows a standard Maven project structure. The source code is locat
 
 ## Running the Project
 This project uses Maven for dependency management and build automation.
-
-`mvn javafx:run
-
+```
+mvn javafx:run
+```
 ## License
 This project is licensed under the terms of the MIT license.
