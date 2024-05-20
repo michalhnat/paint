@@ -75,7 +75,8 @@ public class MyRectangle extends Rectangle implements IShape, Serializable{
         set_height(FigureUtils.calculate_y_distance(start_point, this.end_point));
 
         this.top_left_point = FigureUtils.calculate_top_left_point(start_point, this.end_point);
-        set_start_point(top_left_point);
+        super.setX(top_left_point.getX());
+        super.setY(top_left_point.getY());
 
     }
 
